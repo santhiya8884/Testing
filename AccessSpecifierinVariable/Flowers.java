@@ -9,6 +9,7 @@ package test.garden;
 	//public int d=60;
 	 /*protected	 void watering(){
 	 System.out.println(" water push");
+	  System.out.println(" water push");
 	 }
 	*/
 	/*public static void main(String[] args){
