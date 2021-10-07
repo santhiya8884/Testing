@@ -12,7 +12,12 @@ public class Control_Looping_Demo {
 	}
 
 	public void whileLoopDemo() {
+		int days = 1;
 		// TODO Auto-generated method stub
+		while (days<=7) {
+			System.out.println("Good morning lachu");
+			days=days+1;
+		}
 		
 	}
 
@@ -22,8 +27,16 @@ public class Control_Looping_Demo {
 	}
 
 	public void doWhileLoopDemo() {
+		int days = 1;
 		// TODO Auto-generated method stub
+		//say good morning to my mom in one weeek or 7 days
+		do {
+			System.out.println("Good morning mom");
+			days=days+1;
+		} while (days<=7);
+		
 		
 	}
 
 }
+
