@@ -42,3 +42,8 @@ public class Else_If_Demo {
 	}
 
 }
+
+
+//output : Go to Temple
+//Milk supplied
+

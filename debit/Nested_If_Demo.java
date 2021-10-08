@@ -36,3 +36,6 @@ public class Nested_If_Demo {
 	}
 
 }
+
+
+//output : NOT Elible for the attend interview

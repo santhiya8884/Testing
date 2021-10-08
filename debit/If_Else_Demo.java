@@ -32,3 +32,7 @@ public class If_Else_Demo {
 	}
 
 }
+
+
+
+//output:Your age is below 18 no permisiion to apply voter id
