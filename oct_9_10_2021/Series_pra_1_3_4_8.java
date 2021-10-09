@@ -48,3 +48,5 @@ public class Series_pra_1_3_4_8 {
 	
 
 }
+
+//output:1 3 4 8 15 27
