@@ -12,11 +12,37 @@ public class Series_13_25_51_101_203{
 	public void prac_13_25_51_101_203() {
 		// TODO Auto-generated method stub
 		//13 25 51 101 203
-		System.out.print(13+" ");
+		int n=13;
+		while (n<=203) {
+			System.out.print(n+" ");
+			n=(n*2)-1;
+			if (n>203) {
+				break;
+			}
+			System.out.print(n+" ");
+			n=(n*2)+1;
+		}
+		/*System.out.print(n+" ");
+		n=(n*2)-1;
+		System.out.print(n+" ");
+		n=(n*2)+1;
+		System.out.print(n+" ");
+		n=(n*2)-1;
+		System.out.print(n+" ");
+		n=(n*2)+1;
+		System.out.print(n+" ");
+		n=(n*2)-1;
+		System.out.print(n+" ");
+		n=(n*2)+1;*/
+
+		/*System.out.print(51+" ");
+		System.out.print(101+" ");
+		System.out.print(203+" ");*/
+		/*System.out.print(13+" ");
 		System.out.print(25+" ");
 		System.out.print(51+" ");
 		System.out.print(101+" ");
-		System.out.print(203+" ");
+		System.out.print(203+" ");*/
 
 		
 	}
