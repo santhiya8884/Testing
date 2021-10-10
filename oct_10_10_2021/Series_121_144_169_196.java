@@ -32,3 +32,4 @@ public class Series_121_144_169_196 {
 	}
 
 }
+//output : 121 144 169 19
