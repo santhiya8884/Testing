@@ -19,3 +19,4 @@ public class Sample_final_Demo_Variable {
 	}
 
 }
+//output : 10
