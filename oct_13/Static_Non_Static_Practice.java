@@ -15,3 +15,6 @@ public class Static_Non_Static_Practice {
 	}
 
 }
+//output :
+//sara 50 80
+//thiya 50 20
