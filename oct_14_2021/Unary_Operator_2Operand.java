@@ -5,7 +5,7 @@ public class Unary_Operator_2Operand {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int a=10,b=50;
-		System.out.println("Unary operator with 2operand");
+		System.out.println("Unary operator with 2operand-----negating expression");
 		System.out.println(a++ + b--);
 		System.out.println(++a + --a);
 		System.out.println(++a + b--);
@@ -16,7 +16,7 @@ public class Unary_Operator_2Operand {
 
 }
 /* output :
- * Unary operator with 2operand
+ * Unary operator with 2operand -----negating expression
 60
 23
 61
