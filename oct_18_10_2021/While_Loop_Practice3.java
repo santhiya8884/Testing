@@ -25,3 +25,9 @@ public class While_Loop_Practice3 {
 	}
 
 }
+/* output :
+ 1 2 3 4 5 
+1 2 3 4 5 
+1 2 3 4 5 
+1 2 3 4 5 
+*/
