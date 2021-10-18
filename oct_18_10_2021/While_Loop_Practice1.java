@@ -32,7 +32,7 @@ public class While_Loop_Practice {
 		sara.loopPractice9();
 		System.out.println();
 		System.out.println();
-	//	sara.loopPractice10();
+		sara.loopPractice10();
 
 		/*while(no<=5)
 		{
@@ -57,6 +57,13 @@ public class While_Loop_Practice {
 
 		
 
+	public void loopPractice10() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
 	public void loopPractice9() {
 		// TODO Auto-generated method stub
 		for(int row=1;row<=5;row++) {
@@ -76,7 +83,7 @@ public class While_Loop_Practice {
 		 
 		for(int row=1;row<=5;row++) {
 			 
-			for(int col=5;col>=1;col--)
+			for(int col=5;col>=row;col--)
 			{
 			System.out.print(col + " "); 
 			
@@ -91,7 +98,7 @@ public class While_Loop_Practice {
 		int row=  1; 
 		while (row<=4) {
 			int col = 0; 
-			while(col<=6)
+			while(col<=row)
 			{
 			System.out.print(col + " "); 
 			col++; 
@@ -107,7 +114,7 @@ public class While_Loop_Practice {
 		int row=  1; 
 		while (row<=4) {
 			int col = 1; 
-			while(col<=6)
+			while(col<=row)
 			{
 			System.out.print(col + " "); 
 			col++; 
@@ -123,7 +130,7 @@ public class While_Loop_Practice {
 		
 		for(int row=1;row<=3;row++) {
 			//int col = 3; 
-			for(int col=1;col<=6;col++) 
+			for(int col=1;col<=row;col++) 
 			{
 			System.out.print(col + " "); 
 			
@@ -161,7 +168,7 @@ public class While_Loop_Practice {
 		int count=  1; 
 		while (count<=5) {
 			int num = 5; 
-			while(num>=1)
+			while(num>=count)
 			{
 			System.out.print(num + " "); 
 			num--; 
@@ -177,7 +184,7 @@ public class While_Loop_Practice {
 		int count=  1; 
 		while (count<=5) {
 			int num = 1; 
-			while(num<=5)
+			while(num<=count)
 			{
 			System.out.print(num + " "); 
 			num++; 
@@ -204,21 +211,21 @@ public class While_Loop_Practice {
 	}
 
 }
-/* output:
+/* output :
  1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 
 
-1 2 3 4 5 
-1 2 3 4 5 
-1 2 3 4 5 
-1 2 3 4 5 
+1 
+1 2 
+1 2 3 
+1 2 3 4 
 1 2 3 4 5 
 
 
 5 4 3 2 1 
-5 4 3 2 1 
-5 4 3 2 1 
-5 4 3 2 1 
-5 4 3 2 1 
+5 4 3 2 
+5 4 3 
+5 4 
+5 
 
 
 
@@ -227,28 +234,28 @@ public class While_Loop_Practice {
 3 4 
 
 
-1 2 3 4 5 6 
-1 2 3 4 5 6 
-1 2 3 4 5 6 
+1 
+1 2 
+1 2 3 
 
 
-1 2 3 4 5 6 
-1 2 3 4 5 6 
-1 2 3 4 5 6 
-1 2 3 4 5 6 
+1 
+1 2 
+1 2 3 
+1 2 3 4 
 
 
-0 1 2 3 4 5 6 
-0 1 2 3 4 5 6 
-0 1 2 3 4 5 6 
-0 1 2 3 4 5 6 
+0 1 
+0 1 2 
+0 1 2 3 
+0 1 2 3 4 
 
 
 5 4 3 2 1 
-5 4 3 2 1 
-5 4 3 2 1 
-5 4 3 2 1 
-5 4 3 2 1 
+5 4 3 2 
+5 4 3 
+5 4 
+5 
 
 
 1 
