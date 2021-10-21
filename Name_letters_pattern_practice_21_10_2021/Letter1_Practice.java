@@ -34,3 +34,13 @@ public class Letter1_Practice {
 	
 
 }
+/* output :
+ * * * * * *
+*
+*
+* * * *
+*
+*
+* * * * * *
+
+*/
