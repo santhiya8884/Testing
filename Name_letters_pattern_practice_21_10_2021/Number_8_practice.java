@@ -5,7 +5,9 @@ public class Number_8_practice {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Number_8_practice sara=new Number_8_practice();
-		sara.number_8_Pattern();
+		for(int row=1;row<=2;row++) { 
+			sara.number_8_Pattern();
+		}
 
 	}
 
@@ -30,24 +32,7 @@ public class Number_8_practice {
 				}
 				System.out.println();
 			}
-			for(int row=1;row<=7;row++) {
-				if(row==1||row==7) { 
-					for(int col=1;col<=5;col++) { 
-						System.out.print("*"+" ");
-					}
-				}
-				else { 
-					for(int col=1;col<=5;col++) { 
-						if(col==1||col==5) { 
-							System.out.print("*"+" ");
-						}
-						else {
-							System.out.print("  ");
-						}
-					}
-				}
-				System.out.println();
-			}
+			
 	
 		
 	}
