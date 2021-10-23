@@ -59,3 +59,15 @@ public class Letter_D_practice {
 	}
 
 }
+
+/* output :
+
+* * * * * 
+*          * 
+*          * 
+*          * 
+*          * 
+*          * 
+* * * * * 
+
+*/
