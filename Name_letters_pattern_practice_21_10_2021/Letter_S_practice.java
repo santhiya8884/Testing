@@ -57,7 +57,7 @@ public class Letter_S_practice {
 		for(int row=1;row<=7;row++) {
 			if(row==1) { 
 				System.out.print("  ");
-				for(int col=1;col<=5;col++) {
+				for(int col=1;col<=4;col++) {
 					System.out.print("*"+" ");
 				}
 			}
@@ -118,7 +118,7 @@ public class Letter_S_practice {
 * * * * * 
 
 
-  * * * * * 
+  * * * * 
 *         
 *         
 *         
