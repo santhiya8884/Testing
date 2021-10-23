@@ -38,3 +38,18 @@ public class Letter_e_Practice {
 	}
 
 }
+
+/* output :
+ * * * * * 
+*       * 
+*       * 
+*       * 
+*       * 
+*       * 
+* * * * * 
+*
+*
+*
+* * * * * 
+
+*/
