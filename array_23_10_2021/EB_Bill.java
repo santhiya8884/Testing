@@ -65,3 +65,25 @@ public class EB_Bill {
 	}
 
 }
+/* output :
+ Enter the no of months :
+5
+Enter the unit price :
+4
+ Enter the  month reading :
+34
+136
+ Enter the  month reading :
+56
+224
+ Enter the  month reading :
+78
+312
+ Enter the  month reading :
+32
+ Enter the  month reading :
+21
+Maxium billl 312
+total is 884
+Average is 176.0
+*/
