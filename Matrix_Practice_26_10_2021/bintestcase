@@ -1,0 +1,59 @@
+BInary search test case can find the element ------Step 17
+
+most of element can found the 17 steap
+
+1-500
+
+key>m====s=mid+1
+
+1. s=0, e=499, mid=249
+
+2.    key==249
+
+
+3.  key<249,--->  e=248,s=0,    m=124
+
+
+4  key==124
+
+5.  key>124 --->s=125,e=248 m=186
+
+6.key==186
+
+7.key>186--->s=187,end=248,m=217
+
+
+8. kwy==217
+
+
+9.key<217---s=187,e=216,m=201
+
+10..key>201--->  s=202,e=216,m=209
+
+11.key==209-->
+
+
+12.key>209-->s=210,e=216,m=213
+
+
+13.key==213
+
+
+14.key<213-->e=212,s=210,m=211
+
+15key==211
+
+
+
+16.key<211--->e=210,s=210,m=210
+
+
+17....key==210
+
+
+
+
+
+
+
+
