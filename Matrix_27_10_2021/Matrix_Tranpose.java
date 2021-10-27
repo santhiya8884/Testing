@@ -32,7 +32,7 @@ public class Matrix_Tranpose {
 	            {  
 	                for(j = 0; j < column; j++)  
 	                {  
-	                System.out.print(array[i][j]+" ");  
+	                System.out.print(array[i][j]+"\t");  
 	                }  
 	                System.out.println(" ");  
 	            }  
@@ -41,7 +41,7 @@ public class Matrix_Tranpose {
 	            {  
 	                for(j = 0; j < row; j++)  
 	                {  
-	                    System.out.print(array[j][i]+" ");  
+	                    System.out.print(array[j][i]+"\t");  
 	                }  
 	                System.out.println(" ");  
 	            }  
@@ -49,7 +49,7 @@ public class Matrix_Tranpose {
 	    
 	}
 /* output :
- Enter total rows and columns: 
+Enter total rows and columns: 
 4
 4
 Enter matrix:
@@ -70,14 +70,14 @@ Enter matrix:
  15
  16
  The above matrix before Transpose is 
-1 2 3 4  
-5 6 7 8  
-9 10 11 12  
-13 14 15 16  
+1	2	3	4	 
+5	6	7	8	 
+9	10	11	12	 
+13	14	15	16	 
 The above matrix after Transpose is 
-1 5 9 13  
-2 6 10 14  
-3 7 11 15  
-4 8 12 16  
+1	5	9	13	 
+2	6	10	14	 
+3	7	11	15	 
+4	8	12	16
  */
 	
