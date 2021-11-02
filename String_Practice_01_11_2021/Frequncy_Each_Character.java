@@ -42,7 +42,7 @@ public class Frequncy_Each_Character {
 		
 		for(int i=0;i<name.length();i++) { 
 			
-				 if(freq[i]>0 && letters[i]!=' ') { 
+				 if(freq[i]>0) { 
 					 System.out.println(letters[i]+" Appers "+freq[i]+" Times");
 				 }
 			
@@ -52,10 +52,12 @@ public class Frequncy_Each_Character {
 
 }
 /* output :
- R Appers 1 Times
+R Appers 1 Times
 J Appers 1 Times
 N Appers 2 Times
+  Appers 1 Times
 A Appers 3 Times
 B Appers 2 Times
 U Appers 1 Times
+
 */
