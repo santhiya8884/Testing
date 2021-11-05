@@ -17,7 +17,7 @@ public class String_Count_Sentence {
 		String s=sc.nextLine();
 		int count=0;
 		for(int i=0;i<s.length();i++) { 
-			if(s.charAt(i)=='.') { 
+			if(s.charAt(i)=='.'&& s.charAt(i+1)==' ') { 
 				count++;
 			}
 		}
@@ -28,5 +28,10 @@ public class String_Count_Sentence {
 /* output :
  Enter the Sentence
 santhiya is a good girl. She's mom is very bold lady. And very Hardworker.
+Number of sentences 3
+*/
+/* output :
+ Enter the Sentence
+my name is santhiya. My  mailid is  abc@gmail.com. Hai everyone. 
 Number of sentences 3
 */
